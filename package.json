@@ -1,10 +1,11 @@
 {
-  "name": "jflix-torrentio-proxy",
-  "version": "1.0.0",
-  "description": "Proxy server for JFLIX Stremio addons",
+  "name": "jflix-proxy",
+  "version": "2.0.0",
+  "description": "JFLIX Streaming Proxy - Supports Torrentio, KnightCrawler, MediaFusion",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -13,5 +14,8 @@
   },
   "engines": {
     "node": "18.x"
-  }
+  },
+  "keywords": ["proxy", "stremio", "torrentio", "streaming"],
+  "author": "JFLIX",
+  "license": "MIT"
 }
